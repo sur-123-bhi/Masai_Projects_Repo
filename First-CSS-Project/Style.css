@@ -1,0 +1,59 @@
+body{
+    margin: 0px 200px 0px 200px;
+}
+
+h1{
+    font-size: 100px;
+    margin: 10px;
+}
+h2{
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 60px;
+}
+
+.mainContainer{
+    padding: 40px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 2%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.imgContainer{
+    text-align: center;
+    width: 700px;
+    height: 400px;
+    margin:auto
+}
+
+.infoContainer{
+    text-align: center;
+}
+
+h3{
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 50px;
+    color:rgb(146, 160, 65);
+    margin-bottom: 15px;
+}
+
+.subParagraph{
+    font-size: 30px;
+    color: rgb(107, 101, 101);
+    margin: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.yearParagraph{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.material-symbols-outlined{
+    font-variation-settings: 'FILL' 0, 'wght' 2000, 'GRAD' 10, 'opsz' 100;
+
+}
