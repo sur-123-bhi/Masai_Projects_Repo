@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color: rgb(229, 238, 241);
+}
+
+h1{
+    font-size: 40px;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    background-color: rgb(229, 238, 241);
+}
+
+.newsContainer{
+    height: 100%;
+    width: 25%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 2%;
+    background-color: white;
+}
+
+.newsImgContainer{
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsContentContainer{
+    height: 55%;
+    padding: 10px 30px 0px 30px;
+}
+
+.newsContentContainer > p:first-child{
+    color:blue;
+    font-weight: 600;
+}
+
+.newsContentContainer > p:nth-child(2){
+    font-weight: bolder;
+}
+
+.newsContentContainer > p:nth-child(3){
+    color: rgb(59, 50, 50);
+    font-weight: 600;
+}
+
+#buttonContainer{
+    height: 150px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: rgb(229, 238, 241);
+}
+
+button{
+    padding: 20px;
+    border: 1px solid rgb(214, 76, 76);
+    border-radius: 7px;
+    color: rgb(235, 39, 39);
+    font-weight: 900;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(238, 177, 177);
+}
+
+footer{
+    height: 300px;
+}
+
+#footerHeadingContainer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 30px;
+}
+
+#InvesterContainer{
+    display: flex;
+    height: 200px;
+    justify-content: space-evenly;
+}
+
+.InvestorLogoContainer{
+    height: 90%;
+    width: 25%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
