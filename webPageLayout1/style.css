@@ -1,0 +1,168 @@
+body{
+    margin: 0px;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+header{
+    height: 650px;
+    width: 100%;
+    display: flex;
+}
+#half1header{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px 100px 0px 30px;
+}
+#heading-container{
+    width: 70%;
+    height: 70%;
+    padding: 20px;
+}
+#heading-container > p{
+    padding-bottom: 15px;
+}
+#half2header{
+    width: 50%;
+    height: 70%;
+    background-image: url("./vector-blue-Wallpaper.jpg");
+}
+h1{
+    font-size: 45px;
+    padding-top: 0px;
+}
+.whiteFont{
+    color: white;
+}
+.pinkHeading{
+    color: rgb(228, 16, 51);
+}
+
+#regisButton{
+    background-color: rgb(30, 98, 201);
+    color: white;
+    border: 3px solid rgb(30, 98, 201);
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+#learnButton{
+    margin-left: 15px;
+    background-color: white;
+    border: 3px solid rgb(30, 98, 201);
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+#speakerImg{
+    top: 160px;
+    left: 560px;
+    position: absolute;
+}
+#sponserSection{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+#sponserContainer{
+    height: 200px;
+    width: 95%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#speakerSection{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+}
+#headSpeakerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.cardContainers{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+}
+.card{
+    height: 320px;
+    width: 180px;
+}
+.imgContainer{
+    width: 100%;
+    height: 200px;
+}
+#emailSection{
+    height: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#mail{
+    width: 400px;
+    height: 25px;
+}
+
+.SubscriberButton{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+footer{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+#iconContainer{
+    height: 239px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    margin-bottom: 10px;
+
+}
+#iconContainer > img{
+    border-radius: 50%;
+}
+#linkContainer{
+    border: 1px solid rgb(128, 114, 114);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    padding: 0px 20px 5px 20px;
+    color: white;
+}
